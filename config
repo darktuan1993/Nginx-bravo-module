@@ -1,3 +1,4 @@
 ngx_addon_name=ngx_http_bravo_module
 HTTP_MODULES="$HTTP_MODULES ngx_http_bravo_module"
 NGX_ADDON_SRCS="$NGX_ADDON_SRCS $PWD/ngx_http_bravo_module.c"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS /root/nginx-1.27.3/modules/ngx_http_bravo_module.c"
