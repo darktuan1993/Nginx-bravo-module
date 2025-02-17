@@ -1,7 +1,6 @@
-# Đảm bảo đường dẫn tới mã nguồn Nginx đúng
+# Đảm bảo đường dẫn tới mã nguồn Nginx chính xác
 NGINX_SRC=/usr/src/nginx-1.27.3
 
-# Các bước build module động của bạn
 all:
 	# Cấu hình Nginx với module động của bạn
 	$(NGINX_SRC)/configure --add-dynamic-module=$(PWD)
